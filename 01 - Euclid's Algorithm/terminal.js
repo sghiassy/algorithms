@@ -1,3 +1,6 @@
+//This is simply a helper object that wraps the functionality of appending comments to the 
+//DOM in the same manner as console.log();
+
 $(function() {
 	window.Terminal = (function() {
 		var $terminal = $('#output');
