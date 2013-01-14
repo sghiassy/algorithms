@@ -8,4 +8,5 @@ I do this because as a front-end developer, I think that JavaScript gets the bru
 ### 01 - Chapter 01, Euclid's Algorithm Example
 
 [Euclid's Algorithm in JavaScript - Runtime](http://htmlpreview.github.com/?https://github.com/sghiassy/algorithms/blob/master/01%20-%20Euclid's%20Algorithm/index.html "Euclid's Algorithm in JavaScript")
+
 [Euclid's Algorithm in JavaScript - Code](https://github.com/sghiassy/algorithms/tree/master/01%20-%20Euclid's%20Algorithm "Euclid's Algorithm in JavaScript")
