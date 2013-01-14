@@ -1,27 +1,27 @@
 $(function() {
 	window.terminal = new Terminal();
-	
-	window.gcd = function(u, v) {
+
+	window.gcd = function(num, den) {
 		var temp;
 		
-		while(u > 0) {
-			if(u < v) {
-				temp = u;
-				u = v;
-				v = temp;
+		while(num > 0) {
+			if(num < den) {
+				temp = num;
+				num = den;
+				den = temp;
 			}
 			
-			u = u - v;
+			num = num - den;
 		}
 		
-		return v;
+		return den;
 	};
 
 	$('#submit').click(function() {
 		var num = $('#numerator').val();
 		var den = $('#denominator').val();
-		var commonDenominator = gcd(num, den);
+		var comDen = gcd(num, den);
 		
-		terminal.log(num + '/' + den + '=' + num/commonDenominator + '/' + den/commonDenominator);
+		terminal.log(num + '/' + den + ' = ' + num/comDen + '/' + den/comDen);
 	});
 });

@@ -20,9 +20,30 @@
 		<button id="submit">Find Greatest Common Denominator</button>
 	</div>
 
-	<h2>Terminal Output</h2>
+	<h2>Output</h2>
 	<div class="terminal" id="output">
 		
 	</div>
+	
+	<h2>The Algorithm in all its glory</h2>
+	<div class="terminal">
+	<pre>
+window.gcd = function(num, den) {
+	var temp;
+
+	while(num > 0) {
+		if(num < den) {
+			temp = num;
+			num = den;
+			den = temp;
+		}
+
+		num = num - den;
+	}
+
+	return den;
+};
+	</pre>
+	</terminal>
 </body>
 </html>
