@@ -1,4 +1,5 @@
-algorithms
+Algorithms in Javascript
 ==========
 
-Algorithms in JavaScript
+An interpretation on Algorithms in C by Robert Sedgewick
+======
