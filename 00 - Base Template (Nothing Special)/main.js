@@ -1,1 +1,7 @@
-console.log('testing');
+$(function() {
+	window.terminal = new Terminal();
+
+	$('#start').click(function() {
+
+	});
+});
