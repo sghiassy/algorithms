@@ -3,17 +3,18 @@ $(function() {
 
 	window.gcd = function(num, den) {
 		var temp;
-		
+
 		while(num > 0) {
+			console.log(num, '/', den);
 			if(num < den) {
 				temp = num;
 				num = den;
 				den = temp;
 			}
-			
+
 			num = num - den;
 		}
-		
+
 		return den;
 	};
 
