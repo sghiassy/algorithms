@@ -13,8 +13,8 @@
 int brutesearch(char *pattern, char *string) {
 	
 	int i, j;
-	unsigned long patternLength = strlen(pattern);
-	unsigned long stringLength = strlen(string);
+	int patternLength = strlen(pattern);
+	int stringLength = strlen(string);
 	
 	for(i = 0, j = 0; j < patternLength && i < stringLength; i++, j++) {
 		while(string[i] != pattern[j]) {
@@ -24,7 +24,7 @@ int brutesearch(char *pattern, char *string) {
 	}
     
 	if(j == patternLength) {
-		return i - (int) patternLength;
+		return i - patternLength;
 	} else {
 		return i;
 	}
