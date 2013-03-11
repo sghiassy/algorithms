@@ -17,9 +17,12 @@ int brutesearch(char *pattern, char *string) {
 	unsigned long stringLength = strlen(string);
 	
 	for(i = 0, j = 0; j < patternLength && i < stringLength; i++, j++) {
+		printf("i: %i\n", i);
+		printf("j: %i\n", j);
 		while(string[i] != pattern[j]) {
 			i -= j - 1;
 			j = 0;
+			printf("no pattern match, skipping: %i\n", i);
 		}
 	}
     
@@ -32,6 +35,6 @@ int brutesearch(char *pattern, char *string) {
 
 int main(int argc, char *argv[]) {
 	char pattern[] = "STING";
-	char string[] = "A STRING SEARCHING EXAMPLE CONSISTING OF";
-	printf("%i", brutesearch(pattern, string));
+	char string[] = "A STINNG SEARCHING EXAMPLE CONSISTING OF";
+	printf("Pattern Found at: %i", brutesearch(pattern, string));
 }

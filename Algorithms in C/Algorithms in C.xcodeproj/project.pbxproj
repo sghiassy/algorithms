@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A54445116ED567B0042830C /* BruteSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A54445016ED567B0042830C /* BruteSearch.c */; };
 		AA2F522716ABB53F00044191 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AA2F522616ABB53F00044191 /* main.c */; };
 		AA2F522916ABB53F00044191 /* Algorithms_in_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA2F522816ABB53F00044191 /* Algorithms_in_C.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A54445016ED567B0042830C /* BruteSearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BruteSearch.c; sourceTree = "<group>"; };
 		AA2F522216ABB53F00044191 /* Algorithms in C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms in C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2F522616ABB53F00044191 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AA2F522816ABB53F00044191 /* Algorithms_in_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Algorithms_in_C.1; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		AA2F521716ABB53F00044191 = {
 			isa = PBXGroup;
 			children = (
+				7A54445016ED567B0042830C /* BruteSearch.c */,
 				AA2F522516ABB53F00044191 /* Algorithms in C */,
 				AA2F522316ABB53F00044191 /* Products */,
 			);
@@ -118,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2F522716ABB53F00044191 /* main.c in Sources */,
+				7A54445116ED567B0042830C /* BruteSearch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +214,7 @@
 				AA2F522E16ABB53F00044191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
